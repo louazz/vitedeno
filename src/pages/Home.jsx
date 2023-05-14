@@ -34,13 +34,13 @@ function Home() {
         <div class="row">
           <div class="column">
             <center>
-<h4>Title 1</h4></center>
-<p>{lorem.generateParagraphs(2)}</p>
+<h4> Overview</h4></center>
+<p>This application is for applicants and recruiters where the recruiter has the right to add a job post and the applicant can browse all job openings and eventually apply after setting up his/her profile with the relevant data needed within the application process.</p>
 
           </div>
           <div class="column">
-          <center><h4>Title 2</h4></center>
-<p>{lorem.generateParagraphs(2)}</p>
+          <center><h4>Guide</h4></center>
+<p>if you are looking for job or looking for your future employees then this application is made for you. If you are an applicant start with setting up your profile, browse current vacancies, and eventually apply with one click. For recruiter, you can add a job post and view applicants Resumé while clicking on the application link on the navigation bar.</p>
           </div>
         </div>
         <hr/>
