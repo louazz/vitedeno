@@ -8,7 +8,7 @@ export default function Search() {
     ])
     const [checker, setChecker]= useState(false);
     const [res, setRes]= useState(data);
-    const api="http://backend.ultimatejobs.co";
+    const api="https://backend.ultimatejobs.co";
     const navigate= useNavigate();
     const handleChange=(e)=>{
         if (e.target.value == "") {

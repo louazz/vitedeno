@@ -8,7 +8,7 @@ export default function Login (){
     const [username, setUsername]= useState("");
     const [password, setPassword]= useState("");
     const navigate= useNavigate('/');
-    const api="http://backend.ultimatejobs.co"
+    const api="https://backend.ultimatejobs.co"
     function submit(){
         axios.post(
             api+"/api/signin",{

@@ -12,7 +12,7 @@ export default function Profile() {
     const [checker, setChecker]= useState(false)
     const [hasProfile, setHasProfile]= useState(false)
     const [Pid, setPId]= useState(null)
-    const api = "http://backend.ultimatejobs.co"
+    const api = "https://backend.ultimatejobs.co"
     let { id } = useParams();
     const navigate = useNavigate();
     useEffect(()=>{
