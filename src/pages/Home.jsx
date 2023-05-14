@@ -22,7 +22,7 @@ function Home() {
         <img src={Image} />
         <div class="centered  content-to-hide"><h1>Hi there... </h1>
 
-          <h5>Do you know that you can save a lot of time with useing JobHunter.io</h5>
+          <h5>Do you know that you can save a lot of time with useing Ultimatejobs</h5>
           <h5>So what are you waiting for? start applying now </h5>
           <button class="button button-black"> Sign Up</button>
 

@@ -23,7 +23,7 @@ export default function Nav(){
         <div class='container'>
         <br />
         <div class="row">
-        <div class="column"><h4><a href="/">Job <AiTwotoneBulb class="yellow"/>Hunter.io</a></h4></div>
+        <div class="column"><h4><a href="/">Ultimate <AiTwotoneBulb class="yellow"/>Jobs</a></h4></div>
         <div class="column"><a href="/">home</a>   &nbsp;
                                     &nbsp;<a href="/search">browse</a>   
                                     {isLogged==true? <>&nbsp;
