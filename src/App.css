@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+  font-family: 'Oswald', sans-serif; 
+
+  color: #c82b64;
+}
+
+.button-dark {
+  background-color: c82b64;
+  border: #c82b64;
+}
+input{
+  border-color: #c82b64;
+}
+.button-black {
+  background-color: #ceba52;
+  border-color: #ceba52;
+}
+
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: transparent;
+  color: #ceba52;
+}
+
+.button-black.button-clear {
+  border-color: transparent;
+}
+a{
+  color: #ceba52;
+}
+img {
+  opacity: 0.8;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #dde2ce
+}
+div.horizontalgap {
+  padding: 5px;
+}
+@media (max-width: 767px) {                  
+  .content-to-hide {
+     display: none;
+  }
+}
+
+.yellow{
+  font-size: 20px;
+  color: #ceba52
+  }
+
+  .img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+table,
+td {
+    border: 1px solid #ceba52;
+}
+
+thead,
+tfoot {
+    background-color: #ceba52;
+    color: #fff;
+}
+
+.textarea {
+  height: 500px;
+}
