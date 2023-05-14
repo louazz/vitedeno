@@ -6,7 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 export default function View (){
     const [fileUrl, setFileUrl]= useState(null);
     const [checker, setChecker]= useState(false);
-    const api = "http://64.226.102.153:8000"
+    const api = "http://backend.ultimatejobs.co"
     const [seed, setSeed]= useState(1)
     let { id } = useParams();
     useEffect(()=>{

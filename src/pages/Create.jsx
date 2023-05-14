@@ -28,7 +28,7 @@ export default function Create(){
    const handleCompany= (e)=>{
     setCompany(e.target.value)
    }
-   const api= "http://64.226.102.153:8000";
+   const api= "http://backend.ultimatejobs.co";
    useEffect(()=>{
     if (localStorage.getItem("token")== undefined){
         navigate('/search')

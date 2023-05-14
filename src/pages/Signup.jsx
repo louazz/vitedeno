@@ -9,7 +9,7 @@ export default function Signup() {
     const [email, setEmail]= useState('');
     const [password, setPassword]= useState('');
     const [username, setUsername]= useState('');
-    const api="http://64.226.102.153:8000"
+    const api="http://backend.ultimatejobs.co"
     function submit(){
         axios.post(
             api+'/api/signup',{

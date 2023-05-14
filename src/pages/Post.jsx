@@ -28,7 +28,7 @@ export default function Post(){
   const [description, setDescription]= useState(lorem.generateParagraphs(4))
   let { id } = useParams();
   const navigate = useNavigate();
-  let api= "http://64.226.102.153:8000"
+  let api= "http://backend.ultimatejobs.co"
 
   function apply (){
     setIsLoading(true)
