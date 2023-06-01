@@ -24,11 +24,15 @@ export default function Nav(){
         <br />
         <div class="row">
         <div class="column"><h4><a href="/">Ultimate <AiTwotoneBulb class="yellow"/>Jobs</a></h4></div>
-        <div class="column"><a href="/">home</a>   &nbsp;
-                                    &nbsp;<a href="/search">browse</a>   
-                                    {isLogged==true? <>&nbsp;
-                                    &nbsp;<a href="/create">add post</a>
-                                    &nbsp;&nbsp;<a href="/applications">applications</a></>: <></>}
+        <div class="column">
+            <div className="box">
+                <div className="one"><a href="/">home</a> </div>
+                <div className="two"><a href="/search">browse</a> </div>
+                {isLogged==true?<> <div className="one"><a href="/create">add post</a></div>
+                                  <div className="one"><a href="/applications">applications</a></div> </>: <></>}
+            </div>
+           
+                                    
                                     
                                     </div>
         

@@ -40,23 +40,25 @@ export default function Login (){
     }
 return (
     <>
+
     <div className="container">
-    <div className="container">
-    <img  src={Image} />
-    <div class="centered  content-to-hide" >
+    <img  src={Image} className='img1' />
+    <div className="centered  content-to-hide" >
         <h2>Don't have an account?</h2>
         <p>Sign up now and have the chance to apply to current vacancies</p>
         <button class="button button-black">sign up</button>
     </div>
     </div>
+    <div className='container color4'>
     <hr />
     <h2>Login</h2>
     <label >Username</label>
     <input placeholder='username' onChange={handleUsername}/>
     <label> Password </label>
     <input placeholder='password' type="password" onChange={handlePassword} />
-    <button class="button button-black" onClick={submit}>Login</button>
+    <button className="button button-black" onClick={submit}>Login</button>
     </div>
+    
     </>
 )
 }

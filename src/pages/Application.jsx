@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Application() {
     const api = "https://backend.ultimatejobs.co"
+    //const api = "https://backend.ultimatejobs.co"
     const [data, setData] = useState([])
     const [res, setRes]= useState(data);
     const [checker, setChecker]=useState(false)

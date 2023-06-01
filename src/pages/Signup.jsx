@@ -41,9 +41,9 @@ export default function Signup() {
     }
     return (
         <>
-            <div class="container">
+        
                 <div class="container">
-                    <img src={Image} />
+                    <img src={Image} className="img1"/>
                     <div class="centered content-to-hide" >
                         <h2>You already have an account?</h2>
                         <p>Login and apply to open vacancies</p>
@@ -51,6 +51,7 @@ export default function Signup() {
                             Login
                         </button>
                     </div>  </div>
+                    <div class="container color4">
                 <hr />
                 <h2>Sign Up</h2>
                 <div class="row">

@@ -2,33 +2,68 @@
 
 body{
   font-family: 'Oswald', sans-serif; 
-
-  color: #c82b64;
+ background-color: #e3efed;
+  color: #1d51c9;
 }
 
 .button-dark {
-  background-color: c82b64;
-  border: #c82b64;
+  background-color:#1d51c9;
+  border: #1d51c9;
 }
-input{
-  border-color: #c82b64;
+
+input:invalid {
+  background-color: #e3efed;
 }
+
+input:valid {
+  background-color: #e3efed;
+}
+textarea:valid{
+  background-color: #e3efed;
+}
+table,
+td {
+    border: 1px solid #21324a;
+}
+
+thead,
+tfoot {
+    background-color: #21324a;
+    color: #dfdcf2;
+}
+.box {
+  display: flex;
+}
+
+.one {
+  flex: 1 1 auto;
+}
+
+.two {
+  flex: 1 1 auto;
+}
+
+
+.three {
+  flex: 1 1 auto;
+}
+
 .button-black {
-  background-color: #ceba52;
-  border-color: #ceba52;
+  background-color: #1d51c9;
+  border-color: #1d51c9;
 }
 
 .button-black.button-clear,
 .button-black.button-outline {
   background-color: transparent;
-  color: #ceba52;
+  color: #1d51c9;
 }
 
 .button-black.button-clear {
   border-color: transparent;
 }
 a{
-  color: #ceba52;
+  color: #1d51c9;
 }
 img {
   opacity: 0.8;
@@ -51,26 +86,38 @@ div.horizontalgap {
 
 .yellow{
   font-size: 20px;
-  color: #ceba52
+  color: #1d51c9
   }
 
-  .img{
+.img{
+  opacity: 0.7;
   height: 200px;
   width: 100%;
   object-fit: cover;
 }
 
+.img1{
+  opacity: 0.7;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
 table,
 td {
-    border: 1px solid #ceba52;
+    border: 1px solid #1d51c9;
 }
 
 thead,
 tfoot {
-    background-color: #ceba52;
+    background-color: #1d51c9;
     color: #fff;
 }
 
 .textarea {
   height: 500px;
 }
+.color1 {color: #1d51c9;}
+.color2 {color: #207bd8;}
+.color3 {color: #20a7d8;}
+.color4 {background-color: #6fe6e4;}
+.color5 {background-color: #e3efed;}

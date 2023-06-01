@@ -1,4 +1,4 @@
-import Image from "../assets/bulb_3.jpg"
+import Image from "../assets/bulb_2.jpg"
 import { useEffect, useState } from "react"
 import "../App.css";
 import axios from "axios";
@@ -58,7 +58,9 @@ export default function Search() {
               <h4>Search Results...</h4>
                <hr/>
                 {res.map(item =>
-                    <><div class="row">
+                    <>
+                    < div className="conatainer color4">
+                    <div class="row">
                        
                        
                         <div class="column " >
@@ -75,6 +77,7 @@ export default function Search() {
                             <div class="column ">
                                 <button class="button button-black button-outline " onClick={()=>{apply(item._id)}}>Apply</button>
                             </div>
+                        </div>
                         </div>
                         <hr />
                     </>
